@@ -1,9 +1,10 @@
+// src/components/Footer.jsx
 import React from 'react';
 
 function Footer() {
   return (
-    <footer style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center', padding: '15px', marginTop: '20px' }}>
-      <p>&copy; 2025 My Travel App</p>
+    <footer style={{ backgroundColor: '#222', color: '#fff', textAlign: 'center', padding: '10px', marginTop: '20px' }}>
+      <p>Made with ❤️ by Rowina</p>
     </footer>
   );
 }

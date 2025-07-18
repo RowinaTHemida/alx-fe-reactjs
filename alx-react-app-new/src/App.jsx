@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <UserProfile name="Rowina" age={27} bio="Engineer and React Lover" />
+      <UserProfile name="Rowina Tamer" age={27} bio="React Developer and Engineer based in Alexandria." />
       <MainContent />
       <Footer />
     </>

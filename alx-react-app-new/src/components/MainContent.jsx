@@ -1,12 +1,16 @@
+// src/components/MainContent.jsx
 import React from 'react';
-import UserProfile from './UserProfile';
 
 function MainContent() {
   return (
-    <main style={{ backgroundColor: '#f9f9f9', padding: '20px' }}>
-      <h2 style={{ textAlign: 'center', color: '#333', marginBottom: '20px' }}>Featured Users</h2>
-      <UserProfile name="Alice" age={28} bio="Loves mountains and cities." />
-      <UserProfile name="Bob" age={35} bio="Enjoys urban exploration and photography." />
+    <main style={{ padding: '20px', backgroundColor: '#f4f4f4', fontSize: '18px' }}>
+      <p>Here are some amazing cities to visit!</p>
+      <ul style={{ listStyleType: 'square', paddingLeft: '20px' }}>
+        <li>Paris</li>
+        <li>Tokyo</li>
+        <li>New York</li>
+        <li>Dubai</li>
+      </ul>
     </main>
   );
 }
