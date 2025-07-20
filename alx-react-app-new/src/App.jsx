@@ -1,11 +1,16 @@
 // src/App.jsx
-import Counter from './components/Counter';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import UserProfile from './components/UserProfile';
+import Footer from './components/Footer'; // ✨
 
 function App() {
   return (
     <div>
-      <h1>My Counter App</h1>
-      <Counter />
+      <Header />
+      <MainContent />
+      <UserProfile name="Rowina" age="27" bio="Frontend Dev & Tech Enthusiast" />
+      <Footer /> {/* ✨ */}
     </div>
   );
 }
