@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import UserProfile from './components/UserProfile';
 import MainContent from './components/MainContent';
-import Footer from './components/Footer'; // Add this
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <UserProfile name="Rowina" age="27" bio="Frontend Dev & React Lover 💻" />
       <MainContent />
-      <Footer /> {/* Add this */}
+      <Footer />
     </div>
   );
 }
