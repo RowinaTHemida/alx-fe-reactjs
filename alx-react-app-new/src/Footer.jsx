@@ -1,17 +1,5 @@
-import React from 'react';
-
 function Footer() {
-  return (
-    <footer style={{
-      backgroundColor: '#333',
-      color: 'white',
-      textAlign: 'center',
-      padding: '10px',
-      marginTop: '20px'
-    }}>
-      <p>© 2025 Rowina Tamer. All rights reserved.</p>
-    </footer>
-  );
+  return <footer style={{ textAlign: "center", marginTop: "30px" }}>© 2025 GitHub User Search App</footer>;
 }
 
 export default Footer;
