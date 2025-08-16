@@ -1,11 +1,11 @@
-// src/components/MainContent.jsx
-export default function MainContent() {
+import React from "react";
+
+function MainContent() {
   return (
-    <main style={{ padding: "20px", backgroundColor: "#f9fafb" }}>
-      <h2 style={{ color: "darkgreen" }}>Travel Bucket List</h2>
-      <p style={{ fontSize: "16px", lineHeight: "1.5" }}>
-        I love to visit New York, Paris, and Tokyo.
-      </p>
+    <main style={{ padding: "20px", fontSize: "18px", lineHeight: "1.6" }}>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
 }
+
+export default MainContent;

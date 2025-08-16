@@ -1,18 +1,18 @@
-// src/components/Footer.jsx
-export default function Footer() {
+import React from "react";
+
+function Footer() {
   return (
     <footer
       style={{
-        marginTop: 32,
-        padding: "16px 0",
+        backgroundColor: "black",
+        color: "white",
         textAlign: "center",
-        borderTop: "1px solid #e5e7eb",
-        fontSize: 14,
-        color: "#6b7280",
-        background: "#fff",
+        padding: "10px",
       }}
     >
-      <span>&copy; {new Date().getFullYear()} My Cities App</span>
+      <p>© 2025 RowinaHemida. All rights reserved.</p>
     </footer>
   );
 }
+
+export default Footer;
