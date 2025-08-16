@@ -1,11 +1,9 @@
-import React from "react";
-
-function UserProfile() {
+function UserProfile(props) {
   return (
-    <div style={{ border: "2px solid black", padding: "15px", margin: "15px", borderRadius: "8px" }}>
-      <h2 style={{ color: "darkgreen" }}>John Doe</h2>
-      <p style={{ fontSize: "16px" }}>Age: 25</p>
-      <p style={{ fontStyle: "italic" }}>Bio: A passionate React developer.</p>
+    <div style={{ border: '1px solid gray', padding: '10px', margin: '10px' }}>
+      <h2 style={{ color: 'blue' }}>{props.name}</h2>
+      <p>Age: <span style={{ fontWeight: 'bold' }}>{props.age}</span></p>
+      <p>Bio: {props.bio}</p>
     </div>
   );
 }

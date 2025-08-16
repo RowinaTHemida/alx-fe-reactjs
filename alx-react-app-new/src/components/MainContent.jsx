@@ -1,24 +1,9 @@
-// src/components/MainContent.jsx
-import UserProfile from './UserProfile';
-
-export default function MainContent() {
+function MainContent() {
   return (
-    <main style={{ padding: '20px' }}>
-      <UserProfile
-        name="Cairo"
-        age={1076}
-        bio="Historic capital with vibrant culture and the Nile."
-      />
-      <UserProfile
-        name="Alexandria"
-        age={2348}
-        bio="Mediterranean charm, libraries, and seaside vibes."
-      />
-      <UserProfile
-        name="Dubai"
-        age={189}
-        bio="Modern skyline, innovation, and global lifestyle."
-      />
+    <main style={{ padding: '20px', fontSize: '18px' }}>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
 }
+
+export default MainContent;
