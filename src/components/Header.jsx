@@ -1,16 +1,11 @@
-// src/components/Header.jsx
-export default function Header() {
+import React from "react";
+
+function Header() {
   return (
-    <header
-      style={{
-        backgroundColor: "navy",
-        color: "white",
-        textAlign: "center",
-        padding: "16px 0",
-        letterSpacing: "0.5px",
-      }}
-    >
-      <h1 style={{ margin: 0 }}>My Favorite Cities</h1>
+    <header style={{ backgroundColor: "navy", color: "white", textAlign: "center", padding: "15px" }}>
+      <h1>Welcome to My React App</h1>
     </header>
   );
 }
+
+export default Header;
