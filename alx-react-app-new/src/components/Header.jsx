@@ -1,6 +1,3 @@
-import Header from "./components/Header";
-
-
 // src/components/Header.jsx
 export default function Header() {
   return (

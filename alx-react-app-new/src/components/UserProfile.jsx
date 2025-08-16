@@ -1,12 +1,12 @@
 // src/components/UserProfile.jsx
 export default function UserProfile(props) {
   return (
-    <div style={{ border: "1px solid #ddd", padding: 12, margin: "12px 0", borderRadius: 12, background: "#fff" }}>
-      <h2 style={{ color: "royalblue", margin: "0 0 8px" }}>{props.name}</h2>
-      <p style={{ margin: "6px 0" }}>
-        Age: <span style={{ fontWeight: "bold" }}>{props.age}</span>
+    <div style={{ border: '1px solid gray', padding: '10px', margin: '10px' }}>
+      <h2 style={{ color: 'blue' }}>{props.name}</h2>
+      <p>
+        Age: <span style={{ fontWeight: 'bold' }}>{props.age}</span>
       </p>
-      <p style={{ margin: 0 }}>Bio: {props.bio}</p>
+      <p>Bio: {props.bio}</p>
     </div>
   );
 }
