@@ -1,20 +1,10 @@
-// src/App.jsx
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import Counter from './components/Counter';
 
 function App() {
   return (
-    <div
-      style={{
-        fontFamily: "Arial, sans-serif",
-        background: "#f3f4f6",
-        minHeight: "100vh",
-      }}
-    >
-      <Header />
-      <MainContent />
-      <Footer />
+    <div>
+      <h1>Simple Counter App</h1>
+      <Counter />
     </div>
   );
 }
