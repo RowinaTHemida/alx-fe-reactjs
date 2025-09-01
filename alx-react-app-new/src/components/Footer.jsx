@@ -1,8 +1,9 @@
-// src/components/Footer.jsx
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer style={{ textAlign: 'center', padding: '10px', borderTop: '1px solid #e5e7eb' }}>
-      <span>&copy; {new Date().getFullYear()} My Cities App</span>
+    <footer style={{ backgroundColor: 'darkgray', color: 'white', textAlign: 'center', padding: '10px', marginTop: '20px' }}>
+      <p>© 2023 City Lovers</p>
     </footer>
   );
-}
+};
+
+export default Footer;

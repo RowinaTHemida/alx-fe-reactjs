@@ -1,16 +1,9 @@
-// src/components/Header.jsx
-export default function Header() {
+const Header = () => {
   return (
-    <header
-      style={{
-        backgroundColor: "navy",
-        color: "white",
-        textAlign: "center",
-        padding: "16px 0",
-        letterSpacing: "0.5px",
-      }}
-    >
-      <h1 style={{ margin: 0 }}>My Favorite Cities</h1>
+    <header style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center', padding: '10px' }}>
+      <h1>My Favorite Cities</h1>
     </header>
   );
-}
+};
+
+export default Header;

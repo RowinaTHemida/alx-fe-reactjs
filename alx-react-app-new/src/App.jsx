@@ -1,20 +1,15 @@
 // src/App.jsx
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import React from 'react';
+import Counter from './components/Counter';  // Import the Counter component
 
 function App() {
   return (
-    <div
-      style={{
-        fontFamily: "Arial, sans-serif",
-        background: "#f3f4f6",
-        minHeight: "100vh",
-      }}
-    >
-      <Header />
-      <MainContent />
-      <Footer />
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      {/* Add a heading to the app */}
+      <h1>Simple Counter Application</h1>
+      
+      {/* Render the Counter component */}
+      <Counter />
     </div>
   );
 }
